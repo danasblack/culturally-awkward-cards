@@ -1,0 +1,173 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+ header {
+ 	padding: 154px 0 100px;
+ }
+
+ @media only screen and (max-device-width: 480px) {
+ 	#footer {
+ 		display: none;
+ 	}
+ 	#services {
+ 		margin-left: 100px;
+ 		width: 100%;
+ 	}
+ 	body {
+ 		text-align: center;
+ 		background-color: white;
+ 	}
+ }
+
+ @media (min-width: 992px) {
+ 	header {
+ 		padding: 156px 0 100px;
+ 	}
+ }
+
+ section {
+ 	padding: 10px 0;
+ }
+
+ #about {
+ 	margin-top: 320px;
+ }
+
+ #services {
+ 	margin-top: 180px;
+ }
+
+ #contact {
+ 	margin: 180px 0 100px 0;
+ }
+
+ .navbar {
+ 	height: 200px;
+ }
+
+ .img-responsive {
+ 	height: 350px;
+ 	margin-left: 1%;
+ }
+
+ .bg-dark {
+ 	background-color: black!important;
+ }
+
+ body {
+ 	background-image: 
+ }
+
+ .img-panel {
+ 	height: 350px;
+ }
+
+ #footer img.display{
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	text-align:center;
+ }
+
+ .mid-section {
+ 	margin-right: 42%;
+ }
+
+ #footer {
+ 	background-color: black;
+ 	height: 130px;
+ 	bottom: 0%;
+ 	overflow:auto;
+ 	width: 100%;
+ 	position: relative;
+ 	left: 0;
+ 	text-align: center;
+ }
+
+ #mc_embed_signup input.email {
+ 	height: 180px !important;
+ 	width: 380px !important;
+ }
+
+ #mc_embed_signup .button {
+ 	margin: 10px !important;
+ 	background-color: black !important;
+ }
+
+ input{
+ 	height:50px;
+ }
+
+ ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ 	white-space:pre-line;  
+ 	position:relative;
+ 	top:-25px;
+
+ }
+ ::-moz-placeholder { /* Firefox 19+ */
+ 	white-space:pre-line;  
+ 	position:relative;
+ 	top:-7px;
+ }
+ :-ms-input-placeholder { /* IE 10+ */
+ 	white-space:pre-line;  
+ 	position:relative;
+ 	top:-7px;
+ }
+ :-moz-placeholder { /* Firefox 18- */
+ 	white-space:pre-line;  
+ 	position:relative;
+ 	top:-7px;
+ }
+ 
+ /*anchor*/
+ .anchor{
+ 	display: block;
+ 	height: 104px; /*same height as header*/
+ 	margin-top: -104px; /*same height as header*/
+ 	visibility: hidden;
+ }
+ /*favicon*/
+ .fa {
+ 	padding: 12px;
+ 	font-size: 30px;
+ 	width: 40px;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	border-radius: 50%;
+ }
+
+ /* Add a hover effect if you want */
+ .fa:hover {
+ 	opacity: 0.7;
+ }
+
+ /* Set a specific color for each brand */
+
+ /* Facebook */
+ .fa-facebook {
+ 	background: #3B5998;
+ 	color: white;
+ }
+
+ /* Twitter */
+ .fa-twitter {
+ 	background: #55ACEE;
+ 	color: white;
+ }
+
+ .fa-instagram {
+ 	background: #125688;
+ 	color: white;
+ }
+
+ .social-media {
+ 	text-align: center;
+ }
+
+ .na-item {
+ 	margin-top: 2px;
+ }
